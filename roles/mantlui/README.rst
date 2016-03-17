@@ -43,3 +43,15 @@ You can use these variables to customize your Mantlui installation.
    Use basic authentication to secure the mantlui.
 
    default: ``false``
+
+.. data:: mantlui_nginx_http_port
+
+   nginx-mantlui http port
+
+   default: ``80``
+
+.. data:: mantlui_nginx_https_port
+
+   nginx-mantlui https port
+
+   default: ``443``
